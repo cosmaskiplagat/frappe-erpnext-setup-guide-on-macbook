@@ -1,15 +1,10 @@
-Comprehensive Guide to Setting Up Frappe/ERPNext on macOS
-
-[README.md] (https://github.com/user-attachments/files/16575857/README.md)
-
-
-Guide for setting up Frappe/ERPNext on a MacBook
+Setting up Frappe/ERPNext on a MacBook
 
 
 
-Comprehensive Guide to Setting Up Frappe/ERPNext on macOS (MacBook Pro)
+### Comprehensive Guide to Setting Up Frappe/ERPNext on macOS (MacBook Pro)
 
-Prerequisites
+#### Prerequisites
 - **Python**: ≥ 3.10
 - **Node.js**: 18
 - **MariaDB**: ≥ 10.6.6
@@ -19,16 +14,16 @@ Prerequisites
 - **Cron**: For scheduled jobs (macOS uses `launchd` for scheduling tasks)
 - **NGINX**: Optional for production setup
 
-### 1. Setting Up the Environment
+#### 1. Setting Up the Environment
 
-1.1 Install Xcode Command Line Tools**
-
+**1.1 Install Xcode Command Line Tools**
+```bash
 xcode-select --install
-
+```
 
 **1.2 Install Homebrew**
 Homebrew is a package manager for macOS:
-
+```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -144,3 +139,5 @@ bench get-app erpnext --branch version-14-hotfix
 ```
 
 
+
+This guide provides a detailed process to set up Frappe/ERPNext on your MacBook M1 Pro, tailored to your preferences for passwords and site names. 
