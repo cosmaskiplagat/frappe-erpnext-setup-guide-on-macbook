@@ -1,2 +1,3 @@
-# frappe-erpnext-setup-guide-on-macbook
-frappe-erpnext-setup-guide on macbook
+Comprehensive Guide to Setting Up Frappe/ERPNext on macOS
+
+[README.md] (https://github.com/user-attachments/files/16575857/README.md)
