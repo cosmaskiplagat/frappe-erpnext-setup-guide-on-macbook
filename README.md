@@ -141,3 +141,49 @@ bench get-app erpnext --branch version-14-hotfix
 
 
 This guide provides a detailed process to set up Frappe/ERPNext on your MacBook M1 Pro, tailored to your preferences for passwords and site names. 
+
+
+Great guide! It’s thorough and covers all the necessary steps for setting up Frappe/ERPNext on macOS. Here’s a quick checklist based on your guide to ensure everything is set up correctly:
+
+### Checklist
+
+1. **Xcode Command Line Tools**
+   - [ ] Installed with `xcode-select --install`
+
+2. **Homebrew**
+   - [ ] Installed with the provided script
+
+3. **Packages Installation**
+   - [ ] Python, Git, Redis, MariaDB, Node.js, wkhtmltopdf, pipx installed via Homebrew
+   - [ ] MariaDB and Redis paths added to `~/.zshrc`
+
+4. **MariaDB Configuration**
+   - [ ] Root password set with `mysqladmin`
+   - [ ] Configuration file updated
+   - [ ] MariaDB restarted
+
+5. **Node Version Manager (NVM)**
+   - [ ] NVM installed
+   - [ ] Node.js version 18 installed and in use
+
+6. **Essential Tools**
+   - [ ] Frappe Bench, Honcho, and Yarn installed
+   - [ ] Paths ensured with `pipx ensurepath`
+
+7. **Frappe/ERPNext Initialization**
+   - [ ] Bench instance created
+   - [ ] ERPNext app installed
+   - [ ] Site created and started
+
+8. **Accessing the Site**
+   - [ ] Site accessible via `http://127.0.0.1:8000` and `http://kigen.local:8000`
+
+9. **Special Considerations**
+   - [ ] `OBJC_DISABLE_INITIALIZE_FORK_SAFETY` set if needed
+   - [ ] Correct Node.js version in use and linked properly
+
+10. **Older Versions (if applicable)**
+    - [ ] Python 3.10 and Node.js 16 setup
+    - [ ] Bench initialized with older versions as specified
+
+If you need any tweaks or additional details, let me know!
